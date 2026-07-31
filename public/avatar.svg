@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Yebo Wu monogram</title><desc id="desc">A geometric monogram displaying the initials YW.</desc>
+  <rect width="512" height="512" fill="#e7edf3"/>
+  <path d="M-20 390L390-20M86 532L532 86" stroke="#b7c8cf" stroke-width="2"/>
+  <circle cx="256" cy="256" r="164" fill="#f8f5ed" stroke="#b29152" stroke-width="3"/>
+  <text x="256" y="285" text-anchor="middle" font-family="Georgia,serif" font-size="132" fill="#17202e">YW</text>
+  <text x="256" y="338" text-anchor="middle" font-family="Arial,sans-serif" font-size="17" letter-spacing="6" fill="#55706f">EDGE · LLM · MLLM</text>
+</svg>

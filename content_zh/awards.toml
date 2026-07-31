@@ -1,0 +1,22 @@
+type = "card"
+title = "荣誉与奖励"
+description = "部分荣誉与奖励。"
+
+[[items]]
+title = "国家奖学金"
+subtitle = "Top 1%"
+
+[[items]]
+title = "省级优秀毕业生"
+subtitle = "Top 1%"
+
+[[items]]
+title = "全国大学生节能减排社会实践与科技竞赛特等奖"
+subtitle = "Top 10"
+
+[[items]]
+title = "美国大学生数学建模竞赛二等奖"
+subtitle = "MCM"
+
+[[items]]
+title = "优秀学生干部、一等奖学金"

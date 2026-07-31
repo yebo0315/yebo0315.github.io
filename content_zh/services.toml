@@ -1,0 +1,13 @@
+type = "card"
+title = "学术服务"
+description = "为机器学习、计算机视觉与系统领域的会议和期刊提供同行评审服务。"
+
+[[items]]
+title = "会议审稿人"
+subtitle = "NeurIPS · ICML（银奖审稿人）· ICLR · CVPR · ICCV · AAAI · ACM MM"
+content = "审阅机器学习、计算机视觉、多模态学习与人工智能方向研究工作。"
+
+[[items]]
+title = "期刊审稿人"
+subtitle = "IEEE JSAC · IEEE TPDS"
+content = "审阅通信系统、并行与分布式系统及高效学习方向研究工作。"

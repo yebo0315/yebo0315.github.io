@@ -1,0 +1,70 @@
+[site]
+title = "Yebo Wu"
+description = "Academic homepage of Yebo Wu, a PhD student working on edge computing, large language models, and multimodal large language models."
+favicon = "/favicon.svg"
+last_updated = "July 31, 2026"
+
+[author]
+name = "Yebo Wu"
+title = "PhD Student"
+institution = "State Key Laboratory of Internet of Things for Smart City, University of Macau"
+avatar = "/avatar.svg"
+
+[social]
+email = "yc37926@um.edu.mo"
+location = "China"
+location_details = ["State Key Laboratory of Internet of Things for Smart City", "University of Macau"]
+google_scholar = "https://scholar.google.com/citations?user=13lFepsAAAAJ&hl=en"
+
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "zh"
+mode = "auto"
+fixed_locale = "zh"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "Experience"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "CV"
+type = "link"
+target = "cv"
+href = "/resume.pdf"

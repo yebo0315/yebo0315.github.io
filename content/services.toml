@@ -1,0 +1,13 @@
+type = "card"
+title = "Academic Services"
+description = "Peer-review service for leading conferences and journals."
+
+[[items]]
+title = "Conference Reviewer"
+subtitle = "NeurIPS · ICML (Silver Reviewer) · ICLR · CVPR · ICCV · AAAI · ACM MM"
+content = "Reviewing research across machine learning, computer vision, multimodal learning, and artificial intelligence."
+
+[[items]]
+title = "Journal Reviewer"
+subtitle = "IEEE JSAC · IEEE TPDS"
+content = "Reviewing work on communication systems, parallel and distributed systems, and efficient learning."

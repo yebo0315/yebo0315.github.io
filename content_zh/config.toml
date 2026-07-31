@@ -1,0 +1,49 @@
+[site]
+title = "武业博"
+description = "武业博的学术主页，研究方向包括边缘计算、大语言模型与多模态大语言模型。"
+last_updated = "2026年7月31日"
+
+[author]
+name = "武业博"
+title = "博士研究生"
+institution = "澳门大学 · 智慧城市物联网国家重点实验室"
+
+[social]
+location = "中国"
+location_details = ["智慧城市物联网国家重点实验室", "澳门大学"]
+
+[[navigation]]
+title = "关于我"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "论文"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "经历"
+type = "page"
+target = "experience"
+href = "/experience"
+
+[[navigation]]
+title = "荣誉"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "学术服务"
+type = "page"
+target = "services"
+href = "/services"
+
+[[navigation]]
+title = "简历"
+type = "link"
+target = "cv"
+href = "/resume.pdf"

@@ -1,0 +1,39 @@
+type = "card"
+title = "Education & Experience"
+description = "Academic training and research experience."
+
+[[items]]
+title = "University of Macau"
+subtitle = "PhD Student · State Key Laboratory of Internet of Things for Smart City"
+date = "Sep 2023 - May 2027"
+content = "Research on edge computing, large language models, and multimodal large language models."
+tags = ["PhD", "Edge Computing", "LLM", "MLLM"]
+
+[[items]]
+title = "Nanyang Technological University"
+subtitle = "Visiting Scholar · College of Computing and Data Science"
+date = "May 2026 - Aug 2026"
+
+[[items]]
+title = "Ant Group"
+subtitle = "Ant Star Talent Program · Security"
+date = "Jul 2026 - Present"
+content = "Designed representations for multi-source heterogeneous data and explored generative user representations for credit, recommendation, and intelligent risk-control applications."
+tags = ["Representation Learning", "Risk Intelligence"]
+
+[[items]]
+title = "OPPO Research Institute"
+subtitle = "Data Intelligence Department · Research Intern"
+date = "Aug 2025 - May 2026"
+content = "Developed and deployed intent-recognition models for OPPO Assistant and contributed to an MLLM embedding model ranked fifth on the MMEB leaderboard as of January 1, 2026."
+tags = ["Intent Recognition", "MLLM Embedding"]
+
+[[items]]
+title = "Tongji University"
+subtitle = "PhD Student · College of Electronics and Information Engineering"
+date = "Sep 2022 - Jun 2023"
+
+[[items]]
+title = "Northeastern University"
+subtitle = "B.Eng. · College of Computer Science and Engineering"
+date = "Sep 2018 - Jun 2022"
