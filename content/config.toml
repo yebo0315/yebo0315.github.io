@@ -2,7 +2,7 @@
 title = "Yebo Wu"
 description = "Academic homepage of Yebo Wu, a PhD student working on edge computing, large language models, and multimodal large language models."
 favicon = "/favicon.svg"
-last_updated = "July 31, 2026"
+last_updated = "August 3, 2026"
 
 [author]
 name = "Yebo Wu"
@@ -15,22 +15,22 @@ email = "yc37926@um.edu.mo"
 location = "China"
 location_details = ["State Key Laboratory of Internet of Things for Smart City", "University of Macau"]
 google_scholar = "https://scholar.google.com/citations?user=13lFepsAAAAJ&hl=en"
+github = "https://github.com/yebo0315"
 
 [features]
 enable_likes = false
-enable_one_page_mode = false
+enable_one_page_mode = true
 
 [i18n]
-enabled = true
-locales = ["zh", "en"]
-default_locale = "zh"
-mode = "auto"
-fixed_locale = "zh"
-persist = true
-switcher = true
+enabled = false
+locales = ["en"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = false
+switcher = false
 
 [i18n.labels]
-zh = "中文"
 en = "English"
 
 [[navigation]]
@@ -40,16 +40,16 @@ target = "about"
 href = "/"
 
 [[navigation]]
+title = "News"
+type = "page"
+target = "news"
+href = "/#news"
+
+[[navigation]]
 title = "Publications"
 type = "page"
 target = "publications"
-href = "/publications"
-
-[[navigation]]
-title = "Experience"
-type = "page"
-target = "experience"
-href = "/experience"
+href = "/#publications"
 
 [[navigation]]
 title = "Awards"

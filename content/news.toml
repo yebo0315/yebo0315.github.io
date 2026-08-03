@@ -1,3 +1,12 @@
+type = "about"
+title = "News"
+
+[[sections]]
+id = "news-list"
+type = "list"
+title = "News"
+source = "news.toml"
+
 [[news]]
 date = "2026-04"
 content = "Our work Beyond End-to-End was accepted by ACL 2026 as an Oral paper (Top 3%)."
