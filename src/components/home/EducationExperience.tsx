@@ -2,19 +2,21 @@
 
 import { BriefcaseBusiness, GraduationCap } from 'lucide-react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 interface TimelineItem {
-  mark: string;
+  logo: string;
   organization: string;
   role: string;
   location: string;
-  date: string;
+  date?: string;
   detail?: string;
+  logoOnDark?: boolean;
 }
 
 const education: TimelineItem[] = [
   {
-    mark: 'UM',
+    logo: '/logos/um.png',
     organization: 'University of Macau',
     role: 'PhD Student',
     location: 'Macao, China',
@@ -22,7 +24,7 @@ const education: TimelineItem[] = [
     detail: 'SKL-IOTSC',
   },
   {
-    mark: 'NTU',
+    logo: '/logos/ntu.png',
     organization: 'Nanyang Technological University',
     role: 'Visiting Scholar',
     location: 'Singapore',
@@ -30,14 +32,15 @@ const education: TimelineItem[] = [
     detail: 'College of Computing and Data Science',
   },
   {
-    mark: 'TJU',
+    logo: '/logos/tongji.png',
     organization: 'Tongji University',
     role: 'PhD Student',
     location: 'Shanghai, China',
     date: 'Sep 2022 - Jun 2023',
+    logoOnDark: true,
   },
   {
-    mark: 'NEU',
+    logo: '/logos/neu.png',
     organization: 'Northeastern University',
     role: 'B.Eng.',
     location: 'Shenyang, China',
@@ -48,19 +51,18 @@ const education: TimelineItem[] = [
 
 const internships: TimelineItem[] = [
   {
-    mark: 'ANT',
+    logo: '/logos/ant.png',
     organization: 'Ant Group',
     role: 'Ant Star Talent Program',
     location: 'Hangzhou, China',
-    date: 'Jul 2026 - Present',
     detail: 'Security',
+    logoOnDark: true,
   },
   {
-    mark: 'OPPO',
+    logo: '/logos/oppo.png',
     organization: 'OPPO Research Institute',
     role: 'Research Intern',
     location: 'Shenzhen, China',
-    date: 'Aug 2025 - May 2026',
     detail: 'Data Intelligence Department',
   },
 ];
@@ -86,8 +88,14 @@ function TimelineGroup({
             key={`${item.organization}-${item.role}`}
             className="grid gap-3 py-4 sm:grid-cols-[3.25rem_minmax(0,1.35fr)_minmax(0,1fr)] sm:items-center"
           >
-            <div className="flex h-11 w-11 items-center justify-center rounded-md border border-neutral-200 bg-neutral-50 text-xs font-bold text-accent dark:border-neutral-700 dark:bg-neutral-800">
-              {item.mark}
+            <div className={`flex h-11 w-11 items-center justify-start overflow-hidden rounded-md border border-neutral-200 p-1.5 dark:border-neutral-700 ${item.logoOnDark ? 'bg-[#123d78]' : 'bg-white'}`}>
+              <Image
+                src={item.logo}
+                alt={`${item.organization} logo`}
+                width={128}
+                height={44}
+                className={item.logoOnDark ? 'h-full w-auto max-w-none object-contain object-left' : 'h-full w-full object-contain'}
+              />
             </div>
             <div className="min-w-0">
               <p className="font-semibold text-primary">{item.organization}</p>
@@ -95,7 +103,9 @@ function TimelineGroup({
             </div>
             <div className="min-w-0 sm:text-right">
               <p className="text-sm font-medium text-neutral-700 dark:text-neutral-300">{item.role}</p>
-              <p className="mt-0.5 text-xs text-neutral-500">{item.location} · {item.date}</p>
+              <p className="mt-0.5 text-xs text-neutral-500">
+                {item.location}{item.date ? ` · ${item.date}` : ''}
+              </p>
             </div>
           </div>
         ))}

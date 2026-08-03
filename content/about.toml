@@ -1,9 +1,6 @@
 type = "about"
 title = "About"
 
-[profile]
-research_interests = ["LLM: Efficient Adaptation", "MLLM: Hallucination & Embeddings"]
-
 [[sections]]
 id = "about"
 type = "markdown"
