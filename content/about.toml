@@ -2,7 +2,7 @@ type = "about"
 title = "About"
 
 [profile]
-research_interests = ["Edge Computing", "Large Language Models", "Multimodal Large Language Models"]
+research_interests = ["LLM: Efficient Adaptation", "MLLM: Hallucination & Embeddings"]
 
 [[sections]]
 id = "about"

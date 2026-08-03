@@ -7,6 +7,7 @@ import News, { NewsItem } from '@/components/home/News';
 import PublicationsList from '@/components/publications/PublicationsList';
 import TextPage from '@/components/pages/TextPage';
 import CardPage from '@/components/pages/CardPage';
+import EducationExperience from '@/components/home/EducationExperience';
 import type { SiteConfig } from '@/lib/config';
 import { Publication } from '@/types/publication';
 import { CardPageConfig, PublicationPageConfig, TextPageConfig } from '@/types/page';
@@ -99,6 +100,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                     return null;
                 }
               })}
+              {page.type === 'about' && page.id === 'about' && <EducationExperience />}
               {page.type === 'publication' && (
                 <PublicationsList
                   config={page.config}

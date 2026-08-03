@@ -1,4 +1,3 @@
 type = "publication"
 title = "Publications"
-description = "First-authored and collaborative work on efficient LLM adaptation, multimodal learning, and federated systems."
 source = "publications.bib"
