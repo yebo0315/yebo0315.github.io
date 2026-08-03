@@ -1,2 +1,6 @@
-- **National Scholarship**, Top 1%.
-- **Outstanding Graduate of the Province**, Top 1%.
+- **National Scholarship**.
+- **Outstanding Graduate of the Province**.
+- **Outstanding Student Leader**.
+- **First-Class Scholarship**.
+- **Grand Prize**, National College Student Energy Conservation and Emission Reduction Competition.
+- **Second Prize**, Mathematical Contest in Modeling.

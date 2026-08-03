@@ -3,5 +3,5 @@
 
 ## Mentored Students
 
-- [**Jingguang Li**](https://jingguangli.com/), Ph.D. student at KAIST.
-- [**Han Jin**](https://scholar.google.com/citations?user=K0FOFrUAAAAJ&hl=en).
+- [**Jingguang Li**](https://jingguangli.com/), University of Macau (Master) → KAIST (Ph.D.).
+- [**Han Jin**](https://scholar.google.com/citations?user=K0FOFrUAAAAJ&hl=en), University of Macau (Master).

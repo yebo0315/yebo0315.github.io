@@ -4,8 +4,8 @@ I am currently a Visiting Scholar at [Nanyang Technological University](https://
 
 My research focuses on three closely connected directions:
 
-- **Large Language Models (LLMs):** efficient adaptation and knowledge reuse.
-- **Multimodal Large Language Models (MLLMs):** hallucination mitigation and universal multimodal embeddings.
+- **LLMs:** efficient adaptation and knowledge reuse.
+- **MLLMs:** hallucination mitigation and universal multimodal embeddings.
 - **Agents:** automated research and search agents.
 
 I welcome research discussions and collaboration. Please feel free to reach out by email.

@@ -59,6 +59,11 @@ export default function PublicationsList({ config, publications, embedded = fals
         });
     }, [publications, searchQuery, selectedYear, selectedType]);
 
+    const displayedPublications = useMemo(() => {
+        if (!embedded) return filteredPublications;
+        return [...filteredPublications].sort((a, b) => Number(b.selected) - Number(a.selected));
+    }, [embedded, filteredPublications]);
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -185,19 +190,24 @@ export default function PublicationsList({ config, publications, embedded = fals
             </div>}
 
             {/* Publications Grid */}
-            <div className="divide-y divide-neutral-200 dark:divide-neutral-800 border-t border-neutral-200 dark:border-neutral-800">
-                {filteredPublications.length === 0 ? (
+            <div>
+                {displayedPublications.length === 0 ? (
                     <div className="text-center py-12 text-neutral-500">
                         {messages.publications.noResults}
                     </div>
                 ) : (
-                    filteredPublications.map((pub, index) => (
+                    displayedPublications.map((pub, index) => (
+                        <div key={pub.id}>
+                            {embedded && (index === 0 || (displayedPublications[index - 1]?.selected && !pub.selected)) && (
+                                <h2 className="pt-8 pb-3 text-xl font-serif font-bold text-primary">
+                                    {pub.selected ? 'First-Author Publications' : 'Collaborative Publications'}
+                                </h2>
+                            )}
                         <motion.div
-                            key={pub.id}
                             initial={{ opacity: 0, y: 20 }}
                             animate={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.4, delay: 0.1 * index }}
-                            className="py-6"
+                            className="border-t border-neutral-200 py-6 dark:border-neutral-800"
                         >
                             <div className="flex flex-col md:flex-row gap-6">
                                 {pub.preview && (
@@ -347,6 +357,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                 </div>
                             </div>
                         </motion.div>
+                        </div>
                     ))
                 )}
             </div>

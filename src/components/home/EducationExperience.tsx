@@ -11,7 +11,7 @@ interface TimelineItem {
   location: string;
   date?: string;
   detail?: string;
-  logoOnDark?: boolean;
+  cropLogo?: boolean;
 }
 
 const education: TimelineItem[] = [
@@ -30,6 +30,7 @@ const education: TimelineItem[] = [
     location: 'Singapore',
     date: 'May 2026 - Aug 2026',
     detail: 'College of Computing and Data Science',
+    cropLogo: true,
   },
   {
     logo: '/logos/tongji.png',
@@ -37,7 +38,6 @@ const education: TimelineItem[] = [
     role: 'PhD Student',
     location: 'Shanghai, China',
     date: 'Sep 2022 - Jun 2023',
-    logoOnDark: true,
   },
   {
     logo: '/logos/neu.png',
@@ -51,12 +51,12 @@ const education: TimelineItem[] = [
 
 const internships: TimelineItem[] = [
   {
-    logo: '/logos/ant.png',
+    logo: '/logos/ant.webp',
     organization: 'Ant Group',
     role: 'Ant Star Talent Program',
     location: 'Hangzhou, China',
     detail: 'Security',
-    logoOnDark: true,
+    cropLogo: true,
   },
   {
     logo: '/logos/oppo.png',
@@ -64,6 +64,7 @@ const internships: TimelineItem[] = [
     role: 'Research Intern',
     location: 'Shenzhen, China',
     detail: 'Data Intelligence Department',
+    cropLogo: true,
   },
 ];
 
@@ -88,13 +89,13 @@ function TimelineGroup({
             key={`${item.organization}-${item.role}`}
             className="grid gap-3 py-4 sm:grid-cols-[3.25rem_minmax(0,1.35fr)_minmax(0,1fr)] sm:items-center"
           >
-            <div className={`flex h-11 w-11 items-center justify-start overflow-hidden rounded-md border border-neutral-200 p-1.5 dark:border-neutral-700 ${item.logoOnDark ? 'bg-[#123d78]' : 'bg-white'}`}>
+            <div className="flex h-11 w-11 items-center justify-start overflow-hidden rounded-md border border-neutral-200 bg-white p-1.5 dark:border-neutral-700">
               <Image
                 src={item.logo}
                 alt={`${item.organization} logo`}
                 width={128}
                 height={44}
-                className={item.logoOnDark ? 'h-full w-auto max-w-none object-contain object-left' : 'h-full w-full object-contain'}
+                className={item.cropLogo ? 'h-full w-auto max-w-none object-contain object-left' : 'h-full w-full object-contain'}
               />
             </div>
             <div className="min-w-0">
