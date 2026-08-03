@@ -9,40 +9,40 @@ source = "news.toml"
 
 [[news]]
 date = "2026"
-content = "Our TSEmbed was accepted by ECCV 2026."
+content = "Our TSEmbed was accepted by ECCV 2026. 🎉"
 
 [[news]]
 date = "2026"
-content = "Our SmartFed was accepted by ICML 2026 as a Spotlight paper."
+content = "Our SmartFed was accepted by ICML 2026 as a Spotlight paper. 🎉"
 
 [[news]]
 date = "2026"
-content = "Our ChainFed was accepted by ACL 2026 as an Oral paper."
+content = "Our ChainFed was accepted by ACL 2026 as an Oral paper. 🎉"
 
 [[news]]
 date = "2026"
-content = "Our DaiD was accepted by ACL Findings 2026."
+content = "Our DaiD was accepted by ACL Findings 2026. 🎉"
 
 [[news]]
 date = "2026"
-content = "Our EdgeLLM was accepted by SoCC 2026."
+content = "Our EdgeLLM was accepted by SoCC 2026. 🎉"
 
 [[news]]
 date = "2026"
-content = "Our FedLLM was accepted by TMLR."
+content = "Our FedLLM was accepted by TMLR. 🎉"
 
 [[news]]
 date = "2026"
-content = "Our DevFT was accepted by ICLR 2026."
+content = "Our DevFT was accepted by ICLR 2026. 🎉"
 
 [[news]]
 date = "2025"
-content = "Our ProFL was accepted by KDD 2025."
+content = "Our ProFL was accepted by KDD 2025. 🎉"
 
 [[news]]
 date = "2024"
-content = "Our SmartFreeze was accepted by IWQoS 2024."
+content = "Our SmartFreeze was accepted by IWQoS 2024. 🎉"
 
 [[news]]
 date = "2024"
-content = "Our FedStitch was accepted by IWQoS 2024."
+content = "Our FedStitch was accepted by IWQoS 2024. 🎉"
