@@ -15,7 +15,6 @@ email = "yc37926@um.edu.mo"
 location = "China"
 location_details = ["State Key Laboratory of Internet of Things for Smart City", "University of Macau"]
 google_scholar = "https://scholar.google.com/citations?user=13lFepsAAAAJ&hl=en"
-github = "https://github.com/yebo0315"
 
 [features]
 enable_likes = false
@@ -62,9 +61,3 @@ title = "Services"
 type = "page"
 target = "services"
 href = "/services"
-
-[[navigation]]
-title = "CV"
-type = "link"
-target = "cv"
-href = "/resume.pdf"

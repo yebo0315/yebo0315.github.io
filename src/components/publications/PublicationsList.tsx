@@ -64,6 +64,11 @@ export default function PublicationsList({ config, publications, embedded = fals
         return [...filteredPublications].sort((a, b) => Number(b.selected) - Number(a.selected));
     }, [embedded, filteredPublications]);
 
+    const firstAuthorCount = useMemo(
+        () => displayedPublications.filter((publication) => publication.selected).length,
+        [displayedPublications]
+    );
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -225,6 +230,11 @@ export default function PublicationsList({ config, publications, embedded = fals
                                 )}
                                 <div className="flex-grow">
                                     <h3 className={`${embedded ? "text-lg" : "text-xl"} font-semibold text-primary mb-2 leading-tight`}>
+                                        {embedded && (
+                                            <span className="mr-2 text-neutral-500">
+                                                [{pub.selected ? firstAuthorCount - index : displayedPublications.length - index}]
+                                            </span>
+                                        )}
                                         <FormattedBibTeXText nodes={pub.titleNodes} fallback={pub.title} />
                                     </h3>
                                     <p className={`${embedded ? "text-sm" : "text-base"} text-neutral-600 dark:text-neutral-400 mb-2`}>
