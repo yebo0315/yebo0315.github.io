@@ -36,6 +36,14 @@ date = "2026"
 content = "Our DevFT was accepted by ICLR 2026. 🎉"
 
 [[news]]
+date = "2026"
+content = "Our ScaleFL was accepted by IEEE TPDS 2026. 🎉"
+
+[[news]]
+date = "2026"
+content = "Our EviaMAD was accepted by EMNLP 2026. 🎉"
+
+[[news]]
 date = "2025"
 content = "Our ProFL was accepted by KDD 2025. 🎉"
 

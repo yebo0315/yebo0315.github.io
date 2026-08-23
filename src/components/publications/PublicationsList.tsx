@@ -69,6 +69,18 @@ export default function PublicationsList({ config, publications, embedded = fals
         [displayedPublications]
     );
 
+    const renderVenue = (venue?: string) => {
+        if (!venue) return null;
+        const parts = venue.split(/(Spotlight|Oral)/g);
+        return parts.map((part, index) =>
+            part === 'Spotlight' || part === 'Oral' ? (
+                <span key={`${part}-${index}`} className="font-semibold text-red-600 dark:text-red-400">
+                    {part}
+                </span>
+            ) : part
+        );
+    };
+
     return (
         <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -251,7 +263,7 @@ export default function PublicationsList({ config, publications, embedded = fals
                                         ))}
                                     </p>
                                     <p className="text-sm font-medium text-neutral-800 dark:text-neutral-600 mb-3">
-                                        {pub.journal || pub.conference} {pub.year}
+                                        {renderVenue(pub.journal || pub.conference)} {pub.year}
                                     </p>
 
                                     {pub.description && (

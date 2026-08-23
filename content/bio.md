@@ -6,6 +6,6 @@ My research focuses on three closely connected directions:
 
 - **LLMs:** efficient adaptation and knowledge reuse.
 - **MLLMs:** hallucination mitigation and universal multimodal embeddings.
-- **Agents:** automated research and search agents.
+- **Agents:** Auto Research and Search Agents.
 
 I welcome research discussions and collaboration. Please feel free to reach out by email.

@@ -36,6 +36,7 @@ const education: TimelineItem[] = [
     role: 'PhD Student',
     location: 'Shanghai, China',
     date: 'Sep 2022 - Jun 2023',
+    detail: 'College of Electronics and Information Engineering',
   },
   {
     logo: '/logos/neu.png',
@@ -51,7 +52,7 @@ const internships: TimelineItem[] = [
   {
     logo: '/logos/ant.webp',
     organization: 'Ant Group',
-    role: 'Ant Star Talent Program',
+    role: 'Ant Star Talent Program (Plan-A)',
     location: 'Hangzhou, China',
     detail: 'Security',
   },
