@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true,
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 's01.flagcounter.com',
+      },
+    ],
   },
   /* config options here */
   webpack: (config) => {
