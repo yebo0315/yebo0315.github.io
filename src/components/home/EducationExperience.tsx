@@ -27,7 +27,7 @@ const education: TimelineItem[] = [
     organization: 'Nanyang Technological University',
     role: 'Visiting Scholar',
     location: 'Singapore',
-    date: 'May 2026 - Aug 2026',
+    date: 'May 2026 - Nov 2026',
     detail: 'College of Computing and Data Science',
   },
   {

@@ -4,7 +4,7 @@
 State Key Laboratory of Internet of Things for Smart City  
 Research: edge computing, large language models, and multimodal large language models.
 
-**Nanyang Technological University**, Visiting Scholar, *May 2026 - Aug 2026*  
+**Nanyang Technological University**, Visiting Scholar, *May 2026 - Nov 2026*\
 College of Computing and Data Science
 
 **Tongji University**, PhD Student, *Sep 2022 - Jun 2023*  
