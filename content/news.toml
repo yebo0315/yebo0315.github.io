@@ -9,15 +9,15 @@ source = "news.toml"
 
 [[news]]
 date = "2026"
-content = "ReGaze was accepted by NeurIPS 2026. 🎉"
+content = "Our ReGaze was accepted by NeurIPS 2026. 🎉"
 
 [[news]]
 date = "2026"
-content = "FLoe was accepted by IEEE TPDS 2026. 🎉"
+content = "Our FLoe was accepted by IEEE TPDS 2026. 🎉"
 
 [[news]]
 date = "2026"
-content = "HeimdaLLM was accepted by KDD 2026. 🎉"
+content = "Our HeimdaLLM was accepted by KDD 2026. 🎉"
 
 [[news]]
 date = "2026"
@@ -61,7 +61,7 @@ content = "Our ProFL was accepted by KDD 2025. 🎉"
 
 [[news]]
 date = "2024"
-content = "SmartSplit was accepted by IEEE TPDS 2024. 🎉"
+content = "Our SmartSplit was accepted by IEEE TPDS 2024. 🎉"
 
 [[news]]
 date = "2024"
